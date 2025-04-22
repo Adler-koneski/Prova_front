@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prova Front End</title>
+    <title>Calculadora de Gastos Mensais</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <h1>Calculadora de Gastos Mensais</h1>
@@ -16,12 +17,15 @@
         
         <label for="categoria">Categoria:</label>
         <input type="text" id="categoria" required>
-    
+
         <button type="submit">Adicionar Gasto</button>
     </form>
+
     <h2>Lista de Gastos</h2>
     <ul id="lista-gastos"></ul>
+
     <h3>Total: R$ <span id="total-gastos">0.00</span></h3>
+
     <script src="script.js"></script>
 </body>
 </html>

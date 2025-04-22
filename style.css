@@ -2,6 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 20px;
 }
+
 form {
     margin-bottom: 20px;
 }
@@ -13,12 +14,14 @@ label {
 
 input {
     width: 100%;
+    padding: 8px;
     margin-top: 5px;
 }
 
 button {
     margin-top: 10px;
 }
+
 ul {
     list-style-type: none;
     padding: 0;
@@ -26,4 +29,8 @@ ul {
 
 li {
     margin: 5px 0;
+}
+
+li.high {
+    color: red; 
 }
