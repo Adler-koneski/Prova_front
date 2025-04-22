@@ -14,3 +14,5 @@ listaGastos.appendChild(li);
 const totalGastos = document.getElementById('total-gastos');
 const total = parseFloat(totalGastos.textContent) + valor;
 totalGastos.textContent = total.toFixed(2);
+
+document.getElementById('gasto-form').reset();
