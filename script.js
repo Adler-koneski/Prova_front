@@ -5,3 +5,8 @@ document.getElementById('gasto-form').addEventListener('submit', function(event)
 const descricao = document.getElementById('descricao').value;
 const valor = parseFloat(document.getElementById('valor').value);
 const categoria = document.getElementById('categoria').value;
+
+const li = document.createElement('li');
+li.textContent = `${descricao}: R$ ${valor.toFixed(2)} (${categoria})`;
+const listaGastos = document.getElementById('lista-gastos');
+listaGastos.appendChild(li);
