@@ -11,7 +11,7 @@ document.getElementById('gasto-form').addEventListener('submit', function(event)
 
     if (!descricao || isNaN(valor)) {
         alert("Por favor, preencha a descrição e um valor válido.");
-        return; // Impede a adição do gasto se a validação falhar
+        return; 
     }
 
   
