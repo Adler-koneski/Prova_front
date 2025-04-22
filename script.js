@@ -16,3 +16,7 @@ const total = parseFloat(totalGastos.textContent) + valor;
 totalGastos.textContent = total.toFixed(2);
 
 document.getElementById('gasto-form').reset();
+
+if (valor > 100) {
+    li.style.color = 'red'; // Destaque para valores altos
+}
